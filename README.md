@@ -5,7 +5,7 @@ That is my old abandoned project of 2D engine. I had written it before I learned
 
 
 ## Usage
-1. Include src files and css file. Set your .window size in CSS file.
+1. Include source JS files and CSS file. Set your `.window` size in CSS file.
 2. Add this snippet to your HTML file. You can use more this structure.
 
 
@@ -18,7 +18,7 @@ That is my old abandoned project of 2D engine. I had written it before I learned
 </div>
 ```
 
- 3. Set your scale and initialize engine. You set the scale only one time before initialization. Less scale == less performance!
+ 3. In your JS file, you have to set scale and create `SOSEngine.Scene`, `SOSEngine.Window` and `SOSEngine.Camera`. You can set the scale only one time and before initialization. Remember: less scale == less performance!
  ```js
 SOSEngine.scale = 12;
 var engine = SOSEngine.make($('#SOSEngine'));
