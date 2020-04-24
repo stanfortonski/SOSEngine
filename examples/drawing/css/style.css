@@ -1,0 +1,54 @@
+body
+{
+	margin: 10px auto;
+	text-align: center;
+}
+
+#SOSEngine
+{
+	display: inline-block;
+}
+
+#SOSEngine .window
+{
+	width: 800px;
+	height: 600px;
+	border: solid 3px black;
+}
+
+.tool-box
+{
+	position: absolute;
+	top: 10px;
+	display: inline-block;
+}
+
+.tool-box div
+{
+	margin: 10px;
+}
+
+#color-picker
+{
+	width: 80px;
+	height: 80px;
+	display: inline;
+}
+
+#preview
+{
+	display: inline-block;
+}
+
+#preview .window
+{
+	width: 100px;
+	height: 100px;
+	border: solid 3px black;
+}
+
+#preview .scene
+{
+	width: 300px;
+	height: 300px;
+}

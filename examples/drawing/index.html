@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>SOSEngine Pixel Art Drawing</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+	<main id="SOSEngine" class="SOSEngine">
+		<div class="window">
+			<div class="scene" data-width="84" data-height="64"></div>
+		</div>
+	</main>
+
+	<div class="tool-box">
+		<div>
+			<label>
+				SizeX:
+				<input type="number" id="sizeX" max="4" min="1" value="1">
+			</label>
+
+			<label>
+				SizeY:
+				<input type="number" id="sizeY" max="4" min="1" value="1">
+			</label>
+		</div>
+
+		<div>
+			<label>
+				Round:
+				<input type="number" id="round" max="1" min="0" value="0">
+			</label>
+		</div>
+
+		<div>
+			<label>
+				Rotate:
+				<input type="number" id="rotate" max="360" min="0" value="0">
+			</label>
+		</div>
+
+		<div>
+			<label for="color-picker"><p>Your color:</p></label>
+			<input type="color" id="color-picker">
+		</div>
+
+		<div>
+			<p>Click to use rubber:</p>
+			<button id="rubber">Rubber</button>
+		</div>
+
+		<div>
+			<p>Click to clear screen:</p>
+			<button id="clear">Clear</button>
+		</div>
+
+        <div>
+    		<p>Preview:</p>
+    		<div id="preview" class="SOSEngine">
+    			<div class="window">
+    				<div class="scene"></div>
+    			</div>
+    		</div>
+        </div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../../src/main.js"></script>
+	<script src="../../src/timer.js"></script>
+	<script src="../../src/group/groupManipulator.js"></script>
+	<script src="../../src/group/group.js"></script>
+    <script src="../../src/group/staticGroup.js"></script>
+	<script src="../../src/object/objectManipulator.js"></script>
+	<script src="../../src/object/objectMath.js"></script>
+	<script src="../../src/object/object.js"></script>
+	<script src="../../src/object/staticObject.js"></script>
+	<script src="../../src/scene.js"></script>
+	<script src="../../src/window.js"></script>
+	<script src="../../src/camera-effects.js"></script>
+	<script src="../../src/camera.js"></script>
+	<script src="../../src/shapes/cross.js"></script>
+	<script src="../../src/shapes/line.js"></script>
+	<script src="../../src/shapes/arc.js"></script>
+	<script src="../../src/shapes/circle.js"></script>
+	<script src="../../src/make.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

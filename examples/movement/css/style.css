@@ -1,0 +1,16 @@
+body
+{
+    overflow: hidden;
+}
+
+#SOSEngine .window
+{
+	width: 100vw;
+	height: 100vh;
+}
+
+#SOSEngine .object
+{
+	background: yellow;
+	border: 1px solid black;
+}
